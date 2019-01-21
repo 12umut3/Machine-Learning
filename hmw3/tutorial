@@ -1,0 +1,20 @@
+* Download anaconda from https://www.anaconda.com/download
+* Follow instructions provided in https://conda.io/docs/user-guide/install/index.html#regular-installation
+* Create python3.7 virtual environment for your hw3 using follow command from the command line
+    > conda create -n hw3 python=3.7
+* Activate your virtual environment
+    > source activate hw3
+* To install auxiliary libraries install attached "requirements.txt" and run following command in activated "hw3" environment
+    > pip install requirements.txt
+* When you create your conda environment, jupyter notebook should be installed. Try
+    > jupyter notebook
+* Use one of the following commands to install pytorch for CPU for your system. See https://pytorch.org/ for help.
+    For MacOS:
+    > conda install pytorch torchvision -c pytorch
+
+    For Linux:
+    > conda install pytorch-cpu torchvision-cpu -c pytorch
+
+        For Windows:
+        > conda install pytorch-cpu -c pytorch
+        > pip3 install torchvision
